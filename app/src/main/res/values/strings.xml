@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name" translatable="false">Hirakana</string>
+    <string name="notification_channel_reminders">Challenge Reminders</string>
+    <string name="notification_channel_reminders_description">Notifies the user about daily challenges</string>
+
+    <string name="error_occurred">An error has occurred. Please contact the developer \n\t Error: %s</string>
+    <string name="confirm_exit">Press again to exit</string>
+
+    <string name="dialog_apply">Apply</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_ok">OK</string>
+
+    <!-- MainActivity -->
+    <string name="greetings">Welcome to Hirakana!</string>
+    <string name="dialog_main_title">About this app</string>
+    <string name="dialog_main_about">Hirakana is a simple learning tool to learn the Japanese
+        characters, mainly Hirakana and Katakana but also with some basic Kanji characters
+        (more coming soon).
+        \n\n<br/>You can take quizzes with customizable difficulty and daily challenges to test your knowledge.
+        \n\n<br/>You can also view your statistics on every single characters there is in this app
+        such as success rates, characters you are best/worst at and more…
+    </string>
+
+    <string name="mascot_startup_greetings">Welcome to Hirakana!</string>
+    <string-array name="mascot_messages">
+        <item>Hello! Test your knowledge by taking a quiz.</item>
+        <item>Forgotten about a character? Click the CHARACTERS button to check.</item>
+        <item>Check your statistics to see how well you are doing.</item>
+        <item>Did you know you can type a japanese character in the search bar in CHARACTERS?</item>
+        <item>Good luck!</item>
+        <item>Welcome to Hirakana!</item>
+        <item>Customize your quiz however you like to meet your needs.</item>
+        <item>You can copy a japanese character by double tapping the character in CHARACTERS.</item>
+        <item>Press and hold a Kanji character in CHARACTERS to know its meaning.</item>
+    </string-array>
+
+    <string name="button_main_quiz">Take quiz</string>
+    <string name="button_main_statistics">My Statistics</string>
+    <string name="button_main_characters">Characters</string>
+
+    <string name="button_main_about">About</string>
+
+    <!-- QuizActivity -->
+    <string name="button_start">Start</string>
+    <string name="button_next">Next</string>
+    <string name="button_quiz_begin">Begin</string>
+
+    <string name="button_retry">Retry</string>
+
+    <string name="dialog_answerInfo_userAnswerText">Your answer is:</string>
+    <string name="dialog_answerInfo_correctAnswerText">The correct answer is:</string>
+
+    <string name="dialog_customizer_title">Difficulty</string>
+
+    <string name="dialog_checkbox_hiragana" translatable="false">Hiragana</string>
+    <string name="dialog_checkbox_katakana" translatable="false">Katakana</string>
+    <string name="dialog_checkbox_kanji" translatable="false">Kanji</string>
+
+    <string name="dialog_radiobutton_easy">Easy</string>
+    <string name="dialog_radiobutton_medium">Medium</string>
+    <string name="dialog_radiobutton_hard">Hard</string>
+    <string name="dialog_radiobutton_custom">Custom</string>
+
+    <string name="dialog_textview_questions">Questions</string>
+    <string name="dialog_textview_choices">Choices</string>
+    <string name="dialog_textview_timer">Timer</string>
+    <string name="dialog_textview_guess">Guess what…</string>
+
+    <string name="dialog_quiz_question_number">#%d</string>
+    <string name="dialog_quiz_end_title">Results</string>
+    <string name="dialog_quiz_no_answer">NONE</string>
+    <string name="dialog_quiz_result_correct">✔</string>
+    <string name="dialog_quiz_result_incorrect">✘</string>
+    <string name="dialog_quiz_result_timed_out">⏰</string>
+
+    <string name="textView_quiz_question_number">Question #%d</string>
+    <string name="textView_quiz_question">What is the %s for:</string>
+    <string name="textView_quiz_correct_answer">Correct! The answer is:</string>
+    <string name="textView_quiz_incorrect_answer">Incorrect! The answer is:</string>
+    <string name="textView_quiz_no_answer">Times up! The answer is:</string>
+    <string name="textView_quiz_reveal_answer">%1$s = %2$s</string>
+
+    <string name="toast_quiz_click_next">Please click NEXT to continue</string>
+    <string name="toast_quiz_finished">Quiz ended. Please click the RETRY button</string>
+    <string name="toast_quiz_click_back_again">Press again to exit</string>
+    <string name="toast_quiz_toggle_kanji_on">Kanjis required. Please enable Kanji</string>
+    <string name="toast_quiz_kanjis_only">For Kanjis only. Please remove Katakana and Hiragana</string>
+
+    <string-array name="spinner_guess_type">
+        <item>Romaji</item>
+        <item>Character</item>
+        <item>Meaning</item>
+        <item>Random</item>
+    </string-array>
+
+    <string-array name="spinner_quiz_timer">
+        <item>60</item>
+        <item>30</item>
+        <item>15</item>
+        <item>10</item>
+        <item>5</item>
+        <item>n/a</item>
+    </string-array>
+
+    <!-- ChallengeActivity -->
+    <string name="notification_daily_challenge_title">Daily Challenge</string>
+    <string-array name="notification_daily_challenge_messages">
+        <item>It\'s time for some challenge!</item>
+        <item>Up for some challenge? Tap this now.</item>
+        <item>Test your knowledge in japanese characters.</item>
+    </string-array>
+
+    <string name="textView_challenge_hint">Type answer here</string>
+
+    <!-- StatisticsActivity -->
+    <string name="toolbar_statistics_title">My Statistics</string>
+    <string name="menu_text_size">Text size</string>
+
+    <string name="chip_hiragana" translatable="false">Hiragana</string>
+    <string name="chip_katakana" translatable="false">Katakana</string>
+    <string name="chip_kanji" translatable="false">Kanji</string>
+    <string name="chip_quiz" translatable="false">Quiz</string>
+    <string name="chip_challenge">Challenge</string>
+
+    <string name="chip_alphabet_desc">Z to A</string>
+    <string name="chip_alphabet_asc">A to Z</string>
+    <string name="chip_success_asc">Success Rate ASC</string>
+    <string name="chip_success_desc">Success Rate DESC</string>
+
+    <string name="textView_user_stats">Your Statistics</string>
+    <string name="textView_quiz_attempts">Quizzes taken: %d</string>
+    <string name="textView_challenge_attempts">Challenges completed: %d</string>
+    <string name="textView_user_success_rate">Your success rate: %s%%</string>
+
+    <string name="textView_character_stats">Selected Character</string>
+    <string name="textView_character_attempts">Times appeared</string>
+    <string name="textView_character_success_count">Answered correctly</string>
+    <string name="textView_character_success_rate">Success Rates</string>
+
+    <string name="textView_character_romaji" translatable="false">Romaji: %s</string>
+    <string name="textView_character_type">Type: %s</string>
+    <string name="textView_character_integer_stats">Quiz: %d\t<br/>|\t<br/>Challenge: %d</string>
+    <string name="textView_character_integer_total_stats">Total: %d</string>
+    <string name="textView_character_rates_stats">Quiz:  %s%%\t<br/>|\t<br/>Challenge:  %s%%</string>
+    <string name="textView_character_rates_total_stats">Overall: %s%%</string>
+
+    <string name="textView_character_total_integer_stats">Total: %d</string>
+    <string name="textView_character_total_rate_stats">Overall: %s%%</string>
+
+    <string name="textView_quiz_value_integers">Quiz: %d</string>
+    <string name="textView_challenge_value_integers">Challenge: %d</string>
+    <string name="textView_quiz_value_percents">Quiz: %s%%</string>
+    <string name="textView_challenge_value_percents">Challenge: %s%%</string>
+
+    <!-- CharactersActivity -->
+    <string name="toolbar_characters_title">Characters</string>
+    <string name="dialog_characters_filter_title" translatable="false">Filter</string>
+
+    <string name="menu_search_hint">Search for a character…</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_card_size" translatable="false">Card size</string>
+    <string name="menu_filter" translatable="false">Filter</string>
+
+    <string name="menu_item_text_small_cards">Smaller cards</string>
+    <string name="menu_item_text_big_cards">Bigger cards</string>
+
+    <string name="menu_item_text_small">Small</string>
+    <string name="menu_item_text_medium">Medium</string>
+    <string name="menu_item_text_large">Large</string>
+
+    <string name="textView_no_items">No items matched</string>
+
+    <!-- Content Descriptions -->
+    <string name="description_more_info">More info about this characters</string>
+    <string name="description_get_info">Get some information</string>
+    <string name="description_answer_info">Info about the user\'s answer</string>
+    <string name="description_timer">The timer bar</string>
+    <string name="description_about">About the app</string>
+    <string name="description_service">Plays the background music for the app</string>
+    <string name="description_bgm">Turns on or off the background music</string>
+    <string name="description_text_size">Changes text size of items to bigger or smaller</string>
+    <string name="description_challenge_bg">Challenge Popup Image</string>
+</resources>

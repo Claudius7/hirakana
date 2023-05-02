@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_character_filter_items">
+        <item>Hiragana</item>
+        <item>Katakana</item>
+        <item>Kanji</item>
+    </string-array>
+
+    <string-array name="spinner_choice_counts">
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="spinner_quiz_counts">
+        <item>10</item>
+        <item>15</item>
+        <item>25</item>
+        <item>30</item>
+        <item>50</item>
+    </string-array>
+</resources>

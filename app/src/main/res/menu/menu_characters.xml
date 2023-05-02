@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_menu_search"
+        android:title="@string/menu_search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always|collapseActionView"
+        tools:ignore="AlwaysShowAction"/>
+    <item
+        android:id="@+id/action_card_size"
+        android:icon="@drawable/ic_menu_big_cards"
+        android:title="@string/menu_item_text_big_cards"
+        app:showAsAction="ifRoom"
+        tools:icon="@drawable/ic_menu_small_cards"
+        tools:showAsAction="always" />
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@drawable/ic_menu_filter"
+        android:title="@string/menu_filter"
+        app:showAsAction="ifRoom"
+        tools:showAsAction="always" />
+    <group
+        android:id="@+id/action_group_text_size"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/smallText"
+            android:checked="true"
+            android:title="@string/menu_item_text_small"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/mediumText"
+            android:title="@string/menu_item_text_medium"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/largeText"
+            android:title="@string/menu_item_text_large"
+            app:showAsAction="never" />
+    </group>
+</menu>
